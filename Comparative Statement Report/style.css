@@ -1,0 +1,63 @@
+        body{
+            font-family: Tahoma, Verdana, sans-serif;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table tr td, table tr th{
+            font-size: 12px;
+        }
+        table tbody tr td{
+            border: 1px solid #000;
+        }
+
+        .date-of-req{
+            border: 1px solid black;
+        }
+
+        .prod-dtl{
+            border: 1px solid black;
+        }
+
+        .dtl-desc{
+            line-height: 50px;
+        }
+
+        .comments{
+            line-height: 50px;
+        }
+
+        .signature-place{
+            line-height: 50px;
+        }
+
+        .signature-all{
+            font-weight: bold;
+            line-height: 25px;
+        }
+
+
+        @media (max-width: 800px) {
+            .com-statement {
+              flex-direction: column;
+            }
+          }
+
+
+          .com-statement { 
+            
+            width:100%; 
+            height:100%;
+            page-break-after:always 
+            }
+
+
+
+           
+
+            @page {
+                size: A4 landscape;
+              }
+              
+  
